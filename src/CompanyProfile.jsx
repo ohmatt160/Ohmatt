@@ -36,7 +36,7 @@ export default function CompanyProfile() {
           <div className="nav-links">
             <a href="#company">Company</a>
             <a href="#founder">Founder</a>
-            <a className="button button-small" href={productUrl}>Ohmatt AI <ArrowUpRight aria-hidden="true" /></a>
+            <a className="button button-small" href={productUrl} target="_blank" rel="noopener noreferrer">Ohmatt AI <ArrowUpRight aria-hidden="true" /></a>
           </div>
         </nav>
       </header>
@@ -50,7 +50,7 @@ export default function CompanyProfile() {
               <p className="hero-lede">AI is powerful when it connects broad knowledge with the context of a real person. We’re building toward a personalized AI system shaped around the individual. We’re starting with finance through Ohmatt AI.</p>
               <div className="hero-actions">
                 <a className="button" href="#company">About the company <ArrowRight aria-hidden="true" /></a>
-                <a className="text-link" href={productUrl}>Visit Ohmatt AI <ArrowUpRight aria-hidden="true" /></a>
+                <a className="text-link" href={productUrl} target="_blank" rel="noopener noreferrer">Visit Ohmatt AI <ArrowUpRight aria-hidden="true" /></a>
               </div>
             </div>
             <div className="hero-mark reveal" aria-label="Ohmatt AI Systems OH mark">
@@ -100,7 +100,7 @@ export default function CompanyProfile() {
               <p className="eyebrow">From Ohmatt AI Systems</p>
               <h2 id="product-title">Meet Ohmatt AI.</h2>
               <p>Ohmatt AI is our first step: a personal finance workspace bringing supported bank connections and AI chat together. Users can review available account activity and ask questions about synced records.</p>
-              <a className="text-link" href={productUrl}>Go to ai.ohmatt.com <ArrowRight aria-hidden="true" /></a>
+              <a className="text-link" href={productUrl} target="_blank" rel="noopener noreferrer">Go to ai.ohmatt.com <ArrowRight aria-hidden="true" /></a>
             </div>
             <div className="product-stamp" aria-hidden="true"><span>OUR FIRST PRODUCT</span><strong>AI</strong><i>OHMATT</i></div>
           </div>
@@ -111,7 +111,7 @@ export default function CompanyProfile() {
         <div className="wrap footer-inner">
           <a className="brand" href="#top"><img src="/oh-mark.png" alt="" width="34" height="34" /><span>Ohmatt AI Systems Ltd</span></a>
           <span className="footer-meta">CAC registration 10026490</span>
-          <a className="text-link" href={productUrl}>Ohmatt AI <ArrowUpRight aria-hidden="true" /></a>
+          <a className="text-link" href={productUrl} target="_blank" rel="noopener noreferrer">Ohmatt AI <ArrowUpRight aria-hidden="true" /></a>
         </div>
       </footer>
     </>
