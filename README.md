@@ -1,6 +1,6 @@
 # Ohmatt AI Systems Ltd
 
-React company profile for `ohmatt.com`. The standalone site links to the Ohmatt AI product at `ai.ohmatt.com` and is intentionally independent of the authenticated product frontend.
+React company profile for `ohmatt.com`, presenting the company's focus on building the intelligence layer for the individual. It introduces founder Matthew Hunyingan and links to Ohmatt AI, the first product, at `ai.ohmatt.com`.
 
 ## Deploy
 
@@ -11,6 +11,5 @@ The site is built with React and Vite. Vercel should use `npm run build` and the
 ## Claims and launch checks
 
 - Company identity and CAC registration number are shown from the incorporation certificate.
-- NDPC details identify the certificate's prior company name and state that a name update was requested; update this wording only after NDPC confirms the change.
-- Do not present NDPC registration as product endorsement or as blanket proof of compliance.
-- Publish the approved privacy notice, terms, and DPO contact before inviting customers to connect financial accounts.
+- This site describes the company, founder, incorporation details, and first product. Product-specific privacy and account-connection assurances belong on the Ohmatt AI product site.
+- Publish the approved privacy notice, terms, and DPO contact on the product site before inviting customers to connect financial accounts.

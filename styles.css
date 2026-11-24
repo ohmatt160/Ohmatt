@@ -46,7 +46,7 @@ h1 span { color: #c5bdff; }
 .hero-rule { position: absolute; bottom: 0; left: 0; width: 100%; height: 2px; background: rgba(255,255,255,.05); }
 .hero-rule span { display: block; width: 28%; height: 100%; background: linear-gradient(90deg, transparent, var(--accent), transparent); animation: scan 5s ease-in-out infinite alternate; }
 @keyframes scan { from { transform: translateX(0); } to { transform: translateX(260%); } }
-.product-grid, .company-grid, .trust-grid { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 50px; padding-block: 82px; }
+.product-grid, .company-grid, .founder-grid { display: grid; grid-template-columns: 130px minmax(0, 1fr); gap: 50px; padding-block: 82px; }
 .product-grid { grid-template-columns: 130px minmax(0, 1fr) 150px; }
 .section-index { display: flex; flex-direction: column; gap: 8px; color: #858892; font-size: 10px; letter-spacing: .12em; }
 .section-index span:first-child { color: var(--accent); font-size: 13px; letter-spacing: 0; }
@@ -59,21 +59,18 @@ h2 { max-width: 760px; margin-bottom: 20px; font-size: clamp(32px, 4vw, 48px); l
 .product-stamp strong { margin: 4px 0; color: #d1cbff; font-size: 64px; font-weight: 500; letter-spacing: -.05em; }
 .product-stamp i { font-style: normal; font-size: 8px; }
 .company { background: #101216; }
-.company-main { max-width: 800px; }
+.company-main, .founder-main { max-width: 800px; }
 .company-main h2 { margin-top: 18px; }
+.founder { background: #0e1014; }
+.founder-main h2 { margin-top: 18px; }
+.founder-main p:last-child { max-width: 680px; color: var(--muted); font-size: 15px; line-height: 1.85; }
+.founder-byline { margin-top: -10px; color: #bcb2ff; font-size: 14px; }
+.founder-byline strong { color: #f5f6f7; }
 .company-main > p:last-of-type { margin-bottom: 30px; }
 .company-facts { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); max-width: 640px; margin: 0; border-top: 1px solid var(--line); }
 .company-facts div { padding: 19px 18px 0 0; }
 .company-facts dt { color: #82858d; font-size: 11px; }
 .company-facts dd { margin: 7px 0 0; color: #eeeef1; font-size: 14px; }
-.trust { background: radial-gradient(ellipse at 96% 10%, rgba(87, 143, 117, .09), transparent 34%), #0b0d10; }
-.trust-main h2 { margin-top: 18px; }
-.trust-columns { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 38px; margin-top: 34px; }
-.trust-columns > div { padding-top: 17px; border-top: 1px solid var(--line); }
-.trust-columns h3 { margin-bottom: 10px; font-size: 14px; font-weight: 650; }
-.trust-columns p, .trust-note { margin-bottom: 0; color: var(--muted); font-size: 13px; line-height: 1.8; }
-.trust-columns strong { color: #f1f1f3; }
-.trust-note { max-width: 780px; margin-top: 24px; color: #848791; }
 .footer-inner { min-height: 82px; justify-content: space-between; gap: 24px; }
 .footer-meta { color: #777b84; font-size: 11px; }
 .footer-meta span { padding-inline: 8px; color: #555963; }
@@ -94,10 +91,9 @@ h2 { max-width: 760px; margin-bottom: 20px; font-size: clamp(32px, 4vw, 48px); l
   .hero-actions { flex-direction: column; align-items: flex-start; gap: 18px; }
   .hero-mark { justify-self: start; width: min(72%, 250px); }
   .mark-frame { padding: 18px; }
-  .product-grid, .company-grid, .trust-grid { grid-template-columns: 1fr; gap: 28px; padding-block: 60px; }
+  .product-grid, .company-grid, .founder-grid { grid-template-columns: 1fr; gap: 28px; padding-block: 60px; }
   .section-index { flex-direction: row; align-items: center; gap: 12px; }
   .product-stamp { display: none; }
-  .trust-columns { grid-template-columns: 1fr; gap: 25px; }
   .company-facts { gap: 12px; }
   .company-facts dd { font-size: 13px; }
   .footer-inner { min-height: auto; flex-wrap: wrap; padding-block: 20px; }
